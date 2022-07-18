@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+#myCanvas {
+  border: red solid 2px;
+}
+
+.colorBtn {
+  border: none;
+  padding: 1rem 2rem;
+}
+
+.colorBtn:hover {
+  cursor: pointer;
+}
+
+.btnRed {
+  background-color: #f70202;
+}
+.btnBlack {
+  background-color: #080808;
+  border-radius: 10px 0 0 10px;
+}
+.btnBlue {
+  background-color: #0213f7;
+}
+.btnGreen {
+  background-color: #0bf702;
+  border-radius: 0 10px 10px 0;
+}
+.btnYellow {
+  background-color: #f7ef02;
+}
